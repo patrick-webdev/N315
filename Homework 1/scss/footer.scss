@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  margin: 0.3rem 0;
+
+  @at-root #{&}__link {
+    color: black;
+    text-decoration: underline;
+  }
+
+  @at-root #{&}__linkIcon {
+    font-size: 12px;
+  }
+}

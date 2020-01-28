@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+/* Dropdown Button */
+.dropdown__button {
+  background-color: #b19cd9;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+/* Dropdown button on hover & focus */
+.dropdown__button:hover,
+.dropdown__button:focus {
+  background-color: #9a7ece; }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  width: 100%; }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: display 2s; }
+
+/* Links inside the dropdown */
+.dropdown__content a:not(.dropdown__section) {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+/* Change color of dropdown links on hover */
+.dropdown__content a:hover {
+  background-color: #ddd; }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block; }
+
+.dropdown__section {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+  margin-top: 2rem;
+  margin-left: 1rem; }
+
+@media (max-width: 576px) {
+  .dropdown {
+    display: none; } }
+
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 70%, white), url("../images/polygon.jpg");
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; }
+  .hero__title {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center; }
+  .hero__sub {
+    font-size: 32px;
+    text-align: center; }
+
+@media (max-width: 480px) {
+  .hero__tux {
+    display: block; } }
+
+@media (max-width: 414px) {
+  .hero__title {
+    margin: 0 3%; } }
+
+.commands {
+  display: flex;
+  flex-direction: column; }
+  .commands__title {
+    margin: 2% 30%;
+    font-size: 32px;
+    text-decoration: underline; }
+  .commands__item {
+    margin: 0 30%; }
+  .commands__item:last-of-type {
+    margin-bottom: 2%; }
+  .commands__description::before {
+    content: "~$ ";
+    color: white; }
+  .commands__description {
+    background-color: #2d2d2d;
+    color: LimeGreen;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 8px; }
+  .commands--right {
+    text-align: right; }
+  .commands--white {
+    color: white; }
+  .commands--background {
+    background-color: #2d2d2d; }
+  .commands--whiteConsole {
+    border: 3px solid white; }
+  .commands--noSelect {
+    user-select: none; }
+
+@media (max-width: 767px) {
+  .commands__title {
+    margin: 2% 10%; }
+  .commands__item {
+    margin: 0 10%; } }
+
+@media (max-width: 576px) {
+  .commands__title {
+    margin: 2% 5%; }
+  .commands__item {
+    margin: 2% 5%; } }
+
+.footer {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  margin: 0.3rem 0; }
+  .footer__link {
+    color: black;
+    text-decoration: underline; }
+  .footer__linkIcon {
+    font-size: 12px; }

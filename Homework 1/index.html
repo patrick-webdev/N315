@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Terminal Reference - Patrick Caldwell</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/c32d4178c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <!-- code for dropdown menu from w3schools https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+    <div class="dropdown">
+      <button onclick="dropdown()" class="dropdown__button">
+        <i class="fas fa-bars dropdown__icon"></i>
+      </button>
+      <div id="myDropdown" class="dropdown__content">
+        <a href="#applicationManagement" class="dropdown__section"
+          >Application Management</a
+        >
+        <a href="#updateRepos">Update all repositories' package lists</a>
+        <a href="#upgradePackages">Upgrade all installed packages</a>
+        <a href="#installPackages">Install a package</a>
+        <a href="#removeDeb">Removed unused .deb files</a>
+        <a href="#leaveConfig"
+          >Uninstall a package, but leave any config files</a
+        >
+        <a href="#uninstallPackage">Uninstall a package</a>
+        <a href="#addRepo">Add a repository</a>
+
+        <a href="#webDevelopment" class="dropdown__section">Web Development</a>
+        <a href="#startApache">Start the apache server</a>
+        <a href="#stopApache">Stop the apache server</a>
+        <a href="#restartApache">Restart the apache server</a>
+        <a href="#startHTTP">Start the HTTP server</a>
+        <a href="#createPackage">Create a package.json file</a>
+        <a href="#installSass">Install node-sass</a>
+        <a href="#runScript">Run a node.js script</a>
+        <a href="#connectVPN">Connect to IU's VPN</a>
+        <a href="#disconnectVPN">Disconnect from IU's VPN</a>
+      </div>
+    </div>
+    <section class="hero">
+      <p class="hero__title">
+        Terminal Reference
+        <span class="hero__tux"><i class="fab fa-linux"></i></span>
+      </p>
+      <p class="hero__sub">Patrick Caldwell</p>
+    </section>
+
+    <section class="commands">
+      <p class="commands__title" id="applicationManagement">
+        Application Management
+      </p>
+
+      <div class="commands__item" id="updateRepos">
+        <p class="commands__purpose">Update all repositories' package lists</p>
+        <p class="commands__description">sudo apt-get update</p>
+      </div>
+
+      <div class="commands__item commands--right" id="upgradePackages">
+        <p class="commands__purpose">Upgrade all installed packages</p>
+        <p class="commands__description">sudo apt-get upgrade</p>
+      </div>
+
+      <div class="commands__item" id="installPackages">
+        <p class="commands__purpose">Install a package</p>
+        <p class="commands__description">
+          sudo apt-get install
+          <span class="commands--white commands--noSelect">[package name]</span>
+        </p>
+      </div>
+
+      <div class="commands__item commands--right" id="removeDeb">
+        <p class="commands__purpose">Remove unused .deb files</p>
+        <p class="commands__description">sudo apt-get autoclean</p>
+      </div>
+
+      <div class="commands__item" id="leaveConfig">
+        <p class="commands__purpose">
+          Uninstall a package, but leave any config files
+        </p>
+        <p class="commands__description">
+          sudo apt-get remove
+          <span class="commands--white commands--noSelect">[package name]</span>
+        </p>
+      </div>
+
+      <div class="commands__item commands--right" id="uninstallPackage">
+        <p class="commands__purpose">Uninstall a package</p>
+        <p class="commands__description">
+          sudo apt-get purge
+          <span class="commands--white commands--noSelect">[package name]</span>
+        </p>
+      </div>
+
+      <div class="commands__item" id="addRepo">
+        <p class="commands__purpose">Add a repository</p>
+        <p class="commands__description">
+          sudo add-apt-repository
+          <span class="commands--white commands--noSelect"
+            >[repository URL]</span
+          >
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="commands commands--background commands--white"
+      id="webDevelopment"
+    >
+      <p class="commands__title">Web Development</p>
+
+      <div class="commands__item" id="startApache">
+        <p class="commands__purpose">Start the apache server</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo systemctl start apache2
+        </p>
+      </div>
+
+      <div class="commands__item commands--right" id="stopApache">
+        <p class="commands__purpose">Stop the apache server</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo systemctl stop apache2
+        </p>
+      </div>
+
+      <div class="commands__item" id="restartApache">
+        <p class="commands__purpose">Restart the apache server</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo systemctl restart apache2
+        </p>
+      </div>
+
+      <div class="commands__item commands--right" id="startHTTP">
+        <p class="commands__purpose">Start the HTTP server</p>
+        <p class="commands__description commands--whiteConsole">
+          live-server
+        </p>
+      </div>
+
+      <div class="commands__item" id="createPackage">
+        <p class="commands__purpose">Create a package.json file</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo npm init
+        </p>
+      </div>
+
+      <div class="commands__item commands--right" id="installSass">
+        <p class="commands__purpose">Install node-sass</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo npm install node-sass --save-dev
+        </p>
+      </div>
+
+      <div class="commands__item" id="runScript">
+        <p class="commands__purpose" id="test">Run a node.js script</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo npm run
+          <span class="commands--white commands--noSelect">[script]</span>
+        </p>
+      </div>
+
+      <div class="commands__item commands--right" id="connectVPN">
+        <p class="commands__purpose" id="test">Connect to IU's VPN</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo openconnect -b --cafile /etc/ssl/certs/ca-certificates.crt
+          --juniper https://vpn.iu.edu
+        </p>
+      </div>
+
+      <div class="commands__item" id="disconnectVPN">
+        <p class="commands__purpose" id="test">Disconnect from IU's VPN</p>
+        <p class="commands__description commands--whiteConsole">
+          sudo killall -SIGINT openconnect
+        </p>
+      </div>
+    </section>
+
+    <section class="footer">
+      2020
+      <a
+        class="footer__link"
+        href="http://patrickdcaldwell.com/"
+        target="_blank"
+        >Patrick Caldwell <i class="fas fa-link footer__linkIcon"></i
+      ></a>
+    </section>
+
+    <script src="app/app.js"></script>
+  </body>
+</html>

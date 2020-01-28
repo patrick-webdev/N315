@@ -1,0 +1,67 @@
+//code for dropdown menu from w3schools https://www.w3schools.com/howto/howto_js_dropdown.asp
+
+/* Dropdown Button */
+.dropdown__button {
+  background-color: #b19cd9;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropdown__button:hover,
+.dropdown__button:focus {
+  background-color: #9a7ece;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: display 2s;
+}
+
+/* Links inside the dropdown */
+.dropdown__content a:not(.dropdown__section) {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown__content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.dropdown__section {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 576px) {
+  .dropdown {
+    display: none;
+  }
+}

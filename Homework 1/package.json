@@ -1,0 +1,15 @@
+{
+  "name": "homework-1",
+  "version": "1.0.0",
+  "description": "Homework 1 for N315 by Patrick Caldwell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/main.scss css/main.css -w"
+  },
+  "author": "Patrick Caldwell",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
