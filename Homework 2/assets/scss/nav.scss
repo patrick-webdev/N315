@@ -1,0 +1,16 @@
+.nav {
+  position: fixed;
+  background-color: #ffd5e5;
+  border-bottom: 3px solid #ffb3d0;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+
+  &--link {
+    color: black;
+    text-decoration: underline;
+    display: block;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+  }
+}

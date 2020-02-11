@@ -1,0 +1,36 @@
+.homeLink {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &--pink {
+    background-color: #ffd5e5;
+  }
+
+  &--yellow {
+    background-color: #ffffdd;
+  }
+
+  &--green {
+    background-color: #a0ffe6;
+  }
+
+  &--blue {
+    background-color: #81f5ff;
+  }
+
+  &__text {
+  }
+
+  &--desktop {
+  }
+
+  &--mobile {
+    display: none;
+  }
+}

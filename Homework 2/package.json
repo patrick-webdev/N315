@@ -1,0 +1,15 @@
+{
+  "name": "homework-2",
+  "version": "1.0.0",
+  "description": "A demonstration of dynamically loading web pages from JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass assets/scss/styles.scss assets/css/styles.css -w"
+  },
+  "author": "Patrick Caldwell",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-sass": "^2.3.0"
+  }
+}

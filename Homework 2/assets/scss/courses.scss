@@ -1,0 +1,47 @@
+.courses {
+  padding: 6rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__pink {
+    background-color: #ffd5e5;
+  }
+  &__yellow {
+    background-color: #ffffdd;
+  }
+  &__green {
+    background-color: #a0ffe6;
+  }
+  &__blue {
+    background-color: #81f5ff;
+  }
+}
+
+.course {
+  padding-right: 2rem;
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-right: 2px solid black;
+
+  &--title {
+  }
+
+  &--text {
+    width: 50%;
+  }
+  &--link {
+    display: block;
+    color: black;
+    margin: 2rem 0;
+  }
+}
+
+.text__left {
+  text-align: left;
+}
+.text__right {
+  text-align: right;
+}

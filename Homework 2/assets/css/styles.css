@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Ubuntu", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 1rem; }
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-size: 22px; }
+
+#content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.homeLink {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-decoration: underline;
+  cursor: pointer; }
+  .homeLink--pink {
+    background-color: #ffd5e5; }
+  .homeLink--yellow {
+    background-color: #ffffdd; }
+  .homeLink--green {
+    background-color: #a0ffe6; }
+  .homeLink--blue {
+    background-color: #81f5ff; }
+  .homeLink--mobile {
+    display: none; }
+
+.nav {
+  position: fixed;
+  background-color: #ffd5e5;
+  border-bottom: 3px solid #ffb3d0;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex; }
+  .nav--link {
+    color: black;
+    text-decoration: underline;
+    display: block;
+    margin-right: 2rem;
+    margin-left: 0.5rem; }
+
+.courses {
+  padding: 6rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .courses__pink {
+    background-color: #ffd5e5; }
+  .courses__yellow {
+    background-color: #ffffdd; }
+  .courses__green {
+    background-color: #a0ffe6; }
+  .courses__blue {
+    background-color: #81f5ff; }
+
+.course {
+  padding-right: 2rem;
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-right: 2px solid black; }
+  .course--text {
+    width: 50%; }
+  .course--link {
+    display: block;
+    color: black;
+    margin: 2rem 0; }
+
+.text__left {
+  text-align: left; }
+
+.text__right {
+  text-align: right; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .footer--text {
+    text-align: center; }
+  .footer--link {
+    color: black;
+    text-decoration: underline; }

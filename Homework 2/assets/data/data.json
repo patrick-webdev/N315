@@ -1,0 +1,48 @@
+{
+  "mainNav": [
+    {
+      "path": "php",
+      "linkName": "Information Infrastructure",
+      "mobileName": "<i class='fab fa-php'></i>"
+    },
+    {
+      "path": "js",
+      "linkName": "Multi-Device Web Development",
+      "mobileName": "><i class='fab fa-js-square'></i>"
+    },
+    {
+      "path": "mediaapp",
+      "linkName": "Media Application Development",
+      "mobileName": "<i class='fas fa-paint-brush'></i>"
+    },
+    {
+      "path": "about",
+      "linkName": "About",
+      "mobileName": "<i class='fas fa-address-card'></i>"
+    },
+    {
+      "path": "http://patrickdcaldwell.com/",
+      "linkName": "Patrick Caldwell",
+      "mobileName": "<i class='fas fa-laptop'></i>"
+    }
+  ],
+
+  "pages": [
+    {
+      "pageName": "php",
+      "content": "<div class='courses courses__pink'> <div class='course'><p>Information Infrastructure</p></div> <div class='course'> <div class='course--text text__left'> <p class='course--title'>I210</p><p>This course introduces software architectures of information systems and basic concepts and procedures of system and application development. Course topics include program syntax; procedural programming fundamentals; principles of developing dynamic, database-driven applications for the World Wide Web; relational database concepts; and SQL statements.</p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/INFO-I210-Chang.pdf?02072020' class='course--syllabus course--link'>Syllabus</a> <a href='http://patrickdcaldwell.com/assets/school/I210/finalProject/' class='course--example course--link'>Example project</a> </div></div><div class='course'> <div class='course--text text__left'> <p class='course--title'>I211</p><p>The systems architecture of distributed applications. Advanced programming, including an introduction to the programming of graphical systems. </p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/INFO-I211-Zhu.pdf?02112020' class='course--syllabus course--link'>Syllabus</a> <a href='http://patrickdcaldwell.com/assets/school/I211/FinalProject/' class='course--example course--link'>Example project</a> </div></div><div class='course'> <div class='course--text text__left'> <p class='course--title'>I308</p><p>This course covers information representation in computer systems. Topics include relational databases in the ER model; SQL commands; database design, implementation, and normalization; database triggers; backup, security, and other data management tasks; data extraction from JSON and XML and their use for transmitting objects between browser and server; and social and ethical issues. </p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/INFO-I308-Helling.pdf?02102020' class='course--syllabus course--link'>Syllabus</a> </div></div><div class='footer'> <p class='footer--text'>Course descriptions and syllabi courtesy of <a href='https://soic.iupui.edu/undergraduate/courses/' class='footer--link'>SoIC.</a></p><p class='footer--text'>2020 Patrick Caldwell</p></div></div>"
+    },
+    {
+      "pageName": "js",
+      "content": "<div class='courses courses__yellow'> <div class='course'><p>Multi-Device Web Development</p></div> <div class='course'> <div class='course--text text__left'> <p class='course--title'>N115</p><p>A hands-on introduction to some of the fundamental tools used in industry to produce interactive media-rich Web pages. Case studies of sites that incorporate text, sounds, graphics, animations, and interactivity. Other topics include the design, development, and deployment of a personal Web site.</p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/NEWM-N115-Shelton.pdf?02112020' class='course--syllabus course--link'>Syllabus</a> </div></div><div class='course'> <div class='course--text text__left'> <p class='course--title'>N215</p><p>Study of the creation, publication, and management of documents, images, and other media types on the Web. Topics include Web publishing, asset preparation, document types, contemporary content management systems and their use in the organization. Hands-on experience with contemporary systems for content management.</p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/NEWM-N215-Shelton.pdf?02112020' class='course--syllabus course--link'>Syllabus</a> <a href='http://patrickdcaldwell.com/assets/school/N215/Travel-Fly/index.html' class='course--example course--link'>Example project</a> </div></div><div class='course'> <div class='course--text text__left'> <p class='course--title'>N315</p><p>Advanced creation, publication, and management of interactive publications for online distribution with the inclusion of emerging technologies for a media-rich experience. Topics include interactive Web site development, animations for the Web, online interactive design, document conversion, file exchanges, and digital media development for online usage. </p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/NEWM-N315-Shelton.pdf?02112020' class='course--syllabus course--link'>Syllabus</a> </div></div><div class='course'> <div class='course--text text__left'> <p class='course--title'>N423</p><p>This course applies the representational state transfer software architecture to the development of mobile applications using a nonrelational database. Students learn how to implement a RESTFUL backend API for securely storing and retrieving data in a NoSQL database via AJAX calls. </p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/NEWM-N423-Shelton.pdf?02112020' class='course--syllabus course--link'>Syllabus</a> <a href='http://patrickdcaldwell.com/pxlperfect/' class='course--example course--link'>Example project</a> </div></div><div class='footer'> <p class='footer--text'>Course descriptions and syllabi courtesy of <a href='https://soic.iupui.edu/undergraduate/courses/' class='footer--link'>SoIC.</a></p><p class='footer--text'>2020 Patrick Caldwell</p></div></div>"
+    },
+    {
+      "pageName": "mediaapp",
+      "content": "<div class='courses courses__green'> <div class='course'> <div class='course--text text__left'> <p class='course--title'>N220</p><p>Introduces concepts and skills related to the design of interactive multimedia applications for the Web, the desktop and mobile devices. Within the context of industry-standard application design tools, students use markup tags and scripting to create applications that emphasize graphics, animation, sounds, and interactivity. </p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/NEWM-N220-Faas.pdf?02102020' class='course--syllabus course--link'>Syllabus</a> <a href='http://patrickdcaldwell.com/assets/school/N220/P5%20-%20Personal%20Composition/' class='course--example course--link'>Example project</a> </div></div><div class='course'> <div class='course--text text__left'> <p class='course--title'>N320</p><p>Introduces intermediate concepts and skills related to the design of interactive multimedia applications for the Web, the desktop and mobile devices. Within the context of industry-standard application design tools, students use information modeling, markup tags, and scripting to create applications that emphasize graphics, animation, sounds, and interactivity. </p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/syllabi/NEWM-N320-Faas.pdf?02112020' class='course--syllabus course--link'>Syllabus</a> </div></div><div class='footer'> <p class='footer--text'>Course descriptions and syllabi courtesy of <a href='https://soic.iupui.edu/undergraduate/courses/' class='footer--link'>SoIC.</a></p><p class='footer--text'>2020 Patrick Caldwell</p></div></div>"
+    },
+    {
+      "pageName": "about",
+      "content": "<div class='courses courses__blue'> <div class='course'> <div class='course--text text__left'> <p class='course--title'>About</p><p>This website is a list of courses offered at IUPUI for students looking to learn more above front-end and back-end web development. Each course listed includes the course description and syllabus, provided by the SoIC. </p></div><div class='course--text text__right'> <a href='https://soic.iupui.edu/undergraduate/courses/' class='footer--link'>SoIC course list</a> <a href='http://patrickdcaldwell.com/' class='course--example course--link'>Patrick Caldwell</a> </div></div><div class='footer'> <p class='footer--text'>Course descriptions and syllabi courtesy of <a href='https://soic.iupui.edu/undergraduate/courses/' class='footer--link'>SoIC.</a></p><p class='footer--text'>2020 Patrick Caldwell</p></div></div>"
+    }
+  ]
+}
