@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Add & Save</title>
+    <link rel="stylesheet" href="css/pstyles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adding Data</h1>
+      <p>
+        To add data, type the name of the nav you want to add into the text box
+        below and then click on the "Add Data" button.
+      </p>
+      <input type="text" id="nav-input" />
+      <button id="addData">Add Data</button>
+      
+      <h1>Display Data</h1>
+      <p>To display the data, press the button below.</p>
+      <button class="getData">Get Data</button>
+      <div class="showData"></div>
+
+      <h1>Updating Content</h1>
+      <p>
+        To update content, type the new name you want to change a nav to, and
+        then click on the nav link you want to change above.
+      </p>
+      <div>
+        <input type="text" id="updateContent" />
+      </div>
+
+      <h1>Deleting Content</h1>
+      <p>
+        To delete content, click on the delete button below and then click on
+        the nav link you want to delete above.
+      </p>
+      <button id="deleteData">Delete Data</button>
+    </br>
+
+    <!-- Theme included stylesheets -->
+    <link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet" />
+    <link href="//cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet" />
+
+    <script defer src="/__/firebase/7.8.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.8.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="app/pApp.js"></script>
+    <script src="app/pService.js"></script>
+  </body>
+</html>
