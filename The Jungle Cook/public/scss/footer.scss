@@ -1,0 +1,23 @@
+.footer {
+  margin: 0 40px 25px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__copyright {
+    font-style: italic;
+  }
+  &__links {
+    font-style: italic;
+    a {
+      margin: 0 9px;
+      text-decoration: none;
+    }
+  }
+  &__social {
+    i {
+      margin-left: 20px;
+      font-size: 20px;
+    }
+  }
+}

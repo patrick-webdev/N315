@@ -1,0 +1,61 @@
+// .recipes {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+
+//   &__trysome {
+//     font-size: 30px;
+//     width: 90%;
+//   }
+
+//   &__list {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     width: 100%;
+//     //background-color: red;
+//   }
+// }
+
+// .recipe {
+//   display: flex;
+//   flex-direction: row;
+//   height: 350px;
+
+//   &__img {
+//     width: 300px;
+//     height: 100%;
+//     border-radius: 24px;
+//     background-color: white;
+//     background-image: url("../images/recipe-pizza.jpg");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//   }
+
+//   &__text {
+//     width: 300px;
+//     padding: 40px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: space-between;
+//     border-radius: 24px;
+//     background-color: $color-white;
+//   }
+
+//   &__title {
+//     font-weight: bold;
+//     text-decoration: underline;
+//   }
+
+//   &__wait {
+//     display: flex;
+//     flex-direction: row;
+//   }
+
+//   &__size {
+//     display: flex;
+//     flex-direction: row;
+//   }
+// }

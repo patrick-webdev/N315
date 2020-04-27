@@ -1,0 +1,61 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+
+  p,
+  li {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  ol {
+    margin-left: 1em;
+  }
+
+  &__cnt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 420px;
+    margin-bottom: 60px;
+    margin-left: -1em;
+  }
+
+  &__title {
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  &__img {
+    background-color: white;
+    background-image: url("../images/recipe-pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 100%;
+  }
+  &__desc {
+    margin-left: 45px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__ingredients {
+    margin-bottom: 60px;
+  }
+  &__instructions {
+    margin-bottom: 60px;
+  }
+
+  .btn {
+    margin-bottom: 60px;
+  }
+}

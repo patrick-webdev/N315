@@ -1,0 +1,325 @@
+.btn {
+  width: 160px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 10px #000000;
+  text-decoration: none; }
+  .btn--yellow {
+    background-color: #ffd972; }
+  .btn--pink {
+    background-color: #fcbcb8; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Lato", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+a {
+  color: black; }
+
+.fnt__lato {
+  font-family: "Lato", sans-serif; }
+
+.fnt__caveat {
+  font-family: "Caveat", cursive; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px; }
+  .nav__logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 25%; }
+  .nav__links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 40%; }
+    .nav__links a:not(.active) {
+      text-transform: capitalize;
+      text-decoration: none; }
+
+.active {
+  text-decoration: underline;
+  text-transform: capitalize; }
+
+@media screen and (max-width: 1024px) {
+  .nav__links {
+    width: 70%; } }
+
+.footer {
+  margin: 0 40px 25px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footer__copyright {
+    font-style: italic; }
+  .footer__links {
+    font-style: italic; }
+    .footer__links a {
+      margin: 0 9px;
+      text-decoration: none; }
+  .footer__social i {
+    margin-left: 20px;
+    font-size: 20px; }
+
+.page--home {
+  background-image: linear-gradient(rgba(242, 92, 84, 0.6), rgba(242, 92, 84, 0.6)), url("../images/hero.jpg"); }
+
+.page--recipes {
+  background-image: linear-gradient(rgba(167, 232, 189, 0.6), rgba(167, 232, 189, 0.6)), url("../images/recipe-hero.jpg"); }
+
+.page--login {
+  background-color: #ffd972; }
+
+.page--create {
+  background-color: #ffffff; }
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; }
+
+.home {
+  display: flex;
+  justify-content: center; }
+  .home__title {
+    font-size: 24px;
+    margin-bottom: 15px; }
+  .home__cnt {
+    width: 164px;
+    margin-top: 15px; }
+  .home__sub {
+    margin: 0 -40px;
+    font-size: 13px;
+    font-style: italic;
+    z-index: -1; }
+    .home__sub__text {
+      width: 105px; }
+
+.circle {
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .circle--yellow {
+    background-color: #ffd972; }
+  .circle--pink {
+    background-color: #fcbcb8; }
+  .circle--large {
+    height: 360px;
+    width: 360px;
+    box-shadow: -5px 5px 20px #000000; }
+  .circle--small {
+    height: 170px;
+    width: 170px;
+    box-shadow: 5px 5px 20px #000000; }
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; }
+  .login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; }
+  .login__input {
+    border: none;
+    background-color: #ffd972;
+    color: black;
+    border-bottom: 3px solid #000000;
+    margin-bottom: 50px;
+    width: 100%; }
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%; }
+
+.register {
+  margin-right: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+@media screen and (max-width: 1024px) {
+  .signin {
+    margin-left: 10%; }
+  .register {
+    margin-right: 10%; } }
+
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .create__title {
+    font-size: 30px;
+    width: 70%; }
+  .create__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 150px; }
+    .create__form p {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 50px 0 -20px 0;
+      width: 100%; }
+  .create__input {
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 3px solid #000000;
+    margin: 50px 0 50px 0;
+    width: 100%;
+    font-size: 20px; }
+  .create__submit {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 25px; }
+
+.recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .recipes__trysome {
+    font-size: 30px;
+    width: 90%; }
+  .recipes__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%; }
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  margin: 0 100px 50px 100px; }
+  .recipe__cnt {
+    display: flex;
+    flex-direction: row; }
+  .recipe__btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px; }
+    .recipe__btns .btn {
+      margin-left: 25px;
+      margin-top: 25px; }
+  .recipe__img {
+    width: 300px;
+    height: 100%;
+    border-radius: 24px;
+    background-color: white;
+    background-image: url("../images/recipe-pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .recipe__text {
+    width: 300px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    background-color: #ffffff; }
+  .recipe__title {
+    font-weight: bold;
+    text-decoration: underline; }
+  .recipe__wait {
+    display: flex;
+    flex-direction: row; }
+  .recipe__size {
+    display: flex;
+    flex-direction: row; }
+
+@media screen and (max-width: 1024px) {
+  .recipes__trysome {
+    width: 100%;
+    text-align: center; }
+  .recipes__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px; }
+  .details p,
+  .details li {
+    font-size: 20px; }
+  .details h3 {
+    font-size: 25px;
+    margin-bottom: 40px; }
+  .details ul {
+    list-style-type: none; }
+  .details ol {
+    margin-left: 1em; }
+  .details__cnt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 420px;
+    margin-bottom: 60px;
+    margin-left: -1em; }
+  .details__title {
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    font-size: 25px;
+    font-weight: bold; }
+  .details__img {
+    background-color: white;
+    background-image: url("../images/recipe-pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 100%; }
+  .details__desc {
+    margin-left: 45px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .details__ingredients {
+    margin-bottom: 60px; }
+  .details__instructions {
+    margin-bottom: 60px; }
+  .details .btn {
+    margin-bottom: 60px; }
