@@ -10,6 +10,6 @@
   "author": "Patrick Caldwell",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
